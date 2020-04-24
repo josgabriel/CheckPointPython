@@ -1,0 +1,15 @@
+email = ['jose@gmail.com', 'pedro@gmail.com', 'felipe@gmail.com', 'marcos@gmail.com',  'bia@gmail.com', 
+'julia@gmail.com', 'maria@gmail.com', 'marcela@gmail.com', 'eduardo@gmail.com', 'joao@gmail.com', 
+'vitoria@gmail.com', 'mateus123@gmail.com', 'carlos@gmail.com', 'ronaldo@gmail.com', 'vitor@gmail.com', 
+'hugo@gmail.com', 'ramon@gmail.com', 'julio@gmail.com', 'miriam@gmail.com', 'mariana@gmail.com', 
+'jonas@gmail.com', 'gabriel@gmail.com', 'tereza@gmail.com', 'henrique@gmail.com', 
+'joyce@gmail.com', 'alice@gmail.com', 'johnny@gmail.com', 'roberto@gmail.com', 'bruna@gmail.com', 
+'luana@gmail.com']
+email_vaz = input('qual o seu email? ')
+for nome in email:
+    if email_vaz == nome:
+        print('o seu e-mail foi vazado, entre em contato conosco')
+        break
+    else:
+        print('seu endereço de e-mail está seguro')
+        break
